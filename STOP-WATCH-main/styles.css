@@ -1,0 +1,51 @@
+/* Write CSS code here */
+body{
+    font-family:"Montserrat";
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+    margin: 0px;    
+    background: linear-gradient(135deg, #1a1a1a, #333333); 
+    color: #ffffff; 
+}
+.stopwatch-container
+{
+    text-align:center;
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#stopwatch {
+    font-size: 64px;            
+    margin-bottom: 30px;        
+    color: #ffffff;            
+    padding: 20px;              
+    border: 2px solid #0b5a00;  
+    border-radius: 15px;        
+    background-color: #333;     
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+    text-align: center;         
+}
+button {
+    cursor: pointer;               
+    padding: 12px 24px;            
+    background-color: #0b5a00;     
+    color: white;                  
+    border: none;                  
+    border-radius: 8px;            
+    font-size: 16px;  
+    font-weight: bold;             
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+button:hover {
+    background-color: #0b5a00;     
+    transform: scale(1.05);        
+}
+
+button:active {
+    transform: scale(0.95);        
+}
